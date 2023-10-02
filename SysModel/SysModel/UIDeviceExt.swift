@@ -26,6 +26,7 @@ public extension UIDevice {
         
         switch identifier {
         ///iPod
+        ///https://everymac.com/systems/apple/ipod/index-ipod-specs.html
         case "iPod1,1":  return "iPod Touch 1"
         case "iPod2,1":  return "iPod Touch 2"
         case "iPod3,1":  return "iPod Touch 3"
@@ -35,6 +36,7 @@ public extension UIDevice {
         case "iPod9,1":  return "iPod Touch 7"
             
         ///iPhone
+        ///https://everymac.com/systems/apple/iphone/index-iphone-specs.html
         case "iPhone1,1":  return "iPhone"
         case "iPhone1,2":  return "iPhone 3G"
         case "iPhone2,1":  return "iPhone 3GS"
